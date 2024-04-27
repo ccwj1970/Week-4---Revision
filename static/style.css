@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+}
+
+.body {
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  background-color: rgb(37, 55, 79);
+  color: white;
+  font-size: 30px;
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 20px;
+  text-align: center;
+}
+
+h3 {
+  cursor: pointer; /* 將游標設置為指示器 */
+  text-decoration: underline; /* 添加底線 */
+  text-align: center;
+  margin-top: 20px;
+}
+h3:hover {
+  color: rgb(74, 27, 90); /* 滑鼠懸停時改變顏色 */
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+.form-group {
+  margin-bottom: 15px;
+  margin-right: 40px;
+}
+
+.form-group-1 {
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.form-group-1 label {
+  margin-right: 15px; /* 調整 label 和 input 之間的距離 */
+}
+
+.form-group-1 input {
+  margin-right: 15px; /* 調整 label 和 input 之間的距離 */
+}
+
+.form-group-2 {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  margin-left: 15px;
+}
